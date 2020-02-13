@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   sphere.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hezzahir <hamza.ezzahiry@gmail.com>        +#+  +:+       +#+        */
+/*   By: hezzahir <hezzahir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/04 11:59:15 by hezzahir          #+#    #+#             */
-/*   Updated: 2020/02/03 00:13:40 by hezzahir         ###   ########.fr       */
+/*   Updated: 2020/02/13 20:30:35 by hezzahir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "rtv1.h"
 
 /*
-**	Sphare <origin> <raduis> <color> <translation> <rotation>
+**	Sphere <origin> <raduis> <color> <val> <translation> <rotation> 
 */
 
 void		set_sphere(char **words, t_rtv1 *r)
@@ -27,8 +27,9 @@ void		set_sphere(char **words, t_rtv1 *r)
 	sphere->origin = get_vect_from_str(words[1]);
 	sphere->radius = ft_atof(words[2]);
 	sphere->color = get_color_from_str(words[3]);
-	sphere->tran = get_vect_from_str(words[4]);
-	sphere->rot = get_vect_from_str(words[5]);
+	sphere->val = ft_atoi(words[4]);
+	sphere->tran = get_vect_from_str(words[5]);
+	sphere->rot = get_vect_from_str(words[6]);
 	shape->shape = sphere;
 	shape->id = 1;
 	shape->next = NULL;

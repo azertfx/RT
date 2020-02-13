@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   parsing.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hezzahir <hamza.ezzahiry@gmail.com>        +#+  +:+       +#+        */
+/*   By: hezzahir <hezzahir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/03 14:03:21 by hezzahir          #+#    #+#             */
-/*   Updated: 2020/02/02 12:16:58 by hezzahir         ###   ########.fr       */
+/*   Updated: 2020/02/13 20:29:35 by hezzahir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ void		checker(char *line, t_rtv1 *r)
 		set_camera(words, r);
 	else if (!ft_strcmp(words[0], "light") && nb_word == 4)
 		set_light(words, r);
-	else if (!ft_strcmp(words[0], "sphere") && nb_word == 6)
+	else if (!ft_strcmp(words[0], "sphere") && nb_word == 7)
 		set_sphere(words, r);
 	else if (!ft_strcmp(words[0], "plane") && nb_word == 6)
 		set_plane(words, r);
