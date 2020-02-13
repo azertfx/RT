@@ -3,15 +3,15 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: hezzahir <hamza.ezzahiry@gmail.com>        +#+  +:+       +#+         #
+#    By: hezzahir <hezzahir@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/19 18:32:21 by hezzahir          #+#    #+#              #
-#    Updated: 2020/02/02 11:31:32 by hezzahir         ###   ########.fr        #
+#    Updated: 2020/02/13 20:31:10 by hezzahir         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
-NAME = rtv1
+NAME = rt
 
 SRC_PATH = srcs
 SRC_NAME =  main.c vect_cal1.c vect_cal2.c check_ac.c parsing.c get_data.c \
