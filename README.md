@@ -1,4 +1,4 @@
-# RTv1
+# RT
 
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-blue.svg?style=flat-square)](#contributors-)
