@@ -1,7 +1,7 @@
 # RTv1
 
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-blue.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-blue.svg?style=flat-square)](#contributors-)
 
 
 <p align="center">
