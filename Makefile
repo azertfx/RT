@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: hezzahir <hezzahir@student.42.fr>          +#+  +:+       +#+         #
+#    By: hezzahir <hamza.ezzahiry@gmail.com>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/19 18:32:21 by hezzahir          #+#    #+#              #
-#    Updated: 2020/02/13 20:31:10 by hezzahir         ###   ########.fr        #
+#    Updated: 2020/02/18 23:39:13 by hezzahir         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ SRC_PATH = srcs
 SRC_NAME =  main.c vect_cal1.c vect_cal2.c check_ac.c parsing.c get_data.c \
 			camera.c sphere.c cone.c cylinder.c light.c plane.c event.c \
 			maths_func.c rotation_translate.c lighting.c solve_equation.c \
-			surface_normal.c draw.c
+			surface_normal.c draw.c bmp.c
 
 OBJ_PATH = objs
 OBJ_NAME = $(SRC_NAME:.c=.o)
@@ -27,7 +27,7 @@ CFLAGS = -Wall -Werror -Wextra -g
 
 CPPFLAGS = -I includes -I libft/
 
-HEADER = includes/rtv1.h
+HEADER = includes/rtv1.h includes/bmp.h
 
 LDFLAGS = -L libft
 LDLIBS = -O2 -lft -lm -lmlx -framework OpenGL -framework AppKit

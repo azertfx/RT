@@ -6,7 +6,7 @@
 /*   By: hezzahir <hamza.ezzahiry@gmail.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/16 18:18:56 by hezzahir          #+#    #+#             */
-/*   Updated: 2020/02/08 12:04:58 by hezzahir         ###   ########.fr       */
+/*   Updated: 2020/02/18 23:38:55 by hezzahir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,8 @@ int			key_press(int key, t_rtv1 *r)
 		free_list_shapes(r);
 		exit(1);
 	}
+	else if (key == 1)
+		save_bmp_image(r->mlx.img);
 	return (0);
 }
 

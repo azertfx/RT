@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   rtv1.h                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hezzahir <hezzahir@student.42.fr>          +#+  +:+       +#+        */
+/*   By: hezzahir <hamza.ezzahiry@gmail.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/27 07:08:51 by hhamdaou          #+#    #+#             */
-/*   Updated: 2020/02/13 20:24:47 by hezzahir         ###   ########.fr       */
+/*   Updated: 2020/02/18 23:39:32 by hezzahir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include "mlx.h"
 # include <stdio.h>
 # include <math.h>
+# include "bmp.h"
 # define WIN_WIDTH 1024
 # define WIN_HEIGHT 1024
 # define EPS 1e-9
@@ -237,6 +238,12 @@ t_lighting		pixel_lighting(t_rtv1 r, t_intersection inter);
 int				shadow_light(t_rtv1 r, t_intersection intersect);
 void			intersection(t_ray ray, t_shape *shape,
 					t_intersection *intersect);
+
+/*
+** bmp image
+*/
+
+int				save_bmp_image(t_img image);
 
 /*
 ** Intersection functions
