@@ -6,7 +6,7 @@
 /*   By: hezzahir <hamza.ezzahiry@gmail.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/18 23:12:46 by hezzahir          #+#    #+#             */
-/*   Updated: 2020/03/03 18:46:27 by hezzahir         ###   ########.fr       */
+/*   Updated: 2020/03/05 20:41:47 by hezzahir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ static t_bmp	init_bmph(void)
 	res.unused = 0;
 	res.offset = 54;
 	res.dib = 54 - 14;
-	res.width = (int)WIN_W;
+	res.width = (int)IMG_W;
 	res.height = -(int)IMG_H;
 	res.plane[0] = 1;
 	res.plane[1] = 0;
