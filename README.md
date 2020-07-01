@@ -1,7 +1,7 @@
 # RT
 
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-blue.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-blue.svg?style=flat-square)](#contributors-)
 
 
 <p align="center">
@@ -15,7 +15,7 @@
 
 
 ## About
-**RT** is a project i made it during my student years at 1337 School khouribga (one of 42 network), This project is the first step to create a Raytracing program, for you to finally be able to render computer-generated images.
+**RT** is a project i made it during my student years at 1337 School khouribga (one of 42 Network), This project is the first step to create a Raytracing program, for you to finally be able to render computer-generated images.
 
 ## Project Contents :
 
@@ -34,7 +34,7 @@
 | 3 | cylinder |
 | 4 | cone |
 | 5 | cube |
-| 6 | Torus |
+| 6 | Torus (soon) |
 
 ## Parsing file format
 
